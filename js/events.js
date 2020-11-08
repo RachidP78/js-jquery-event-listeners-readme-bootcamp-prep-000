@@ -6,7 +6,10 @@ function getIt() {
 }
 
 function frameIt() {
-  $('image').load
+  $('image').load(function() { 
+      $('image').addClass("tasty")
+    
+  })
 
 }
 
